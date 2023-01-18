@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Interactive Quiz</title>
+<link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Interactive Quiz</h1>
+        <form id="quiz-form">
+    <div class="question">
+        <h2>Question 1</h2>
+            <p>What is the capital of France?</p>
+        <label>
+            <input type="radio" name="question1" value="Paris">
+                 Paris
+        </label>
+        <label>
+            <input type="radio" name="question1" value="London">
+                London
+        </label>
+        <label>
+            <input type="radio" name="question1" value="Rome">
+                Rome
+        </label>
+        <label>
+            <input type="radio" name="question1" value="Madrid">
+                Madrid
+        </label>
+            <button class= "hint-button" id="hint-1">Hint</button>
+        </div> 
+    <div class="question">
+        <h2>Question 2</h2>
+            <p>What is the largest planet in our solar system?</p>
+        <label>
+            <input type="radio" name="question2" value="Earth">
+Earth
+</label>
+<label>
+<input type="radio" name="question2" value="Jupiter">
+Jupiter
+</label>
+<label>
+<input type="radio" name="question2" value="Saturn">
+Saturn
+</label>
+<label>
+<input type="radio" name="question2" value="Neptune">
+Neptune
+</label>
+<button class="hint-button" id="hint-2">Hint</button>
+</div>
+<button type="submit" id="submit-button">Submit</button>
+</form>
+<div id="result-div"></div>
+</div>
+    <script src="quiz.js"></script>
+    </div>
+</body>
+</html>
